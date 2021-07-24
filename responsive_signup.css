@@ -1,0 +1,137 @@
+  @media only screen and (min-width: 480px) {
+    *{
+  margin: 0;
+  padding: 0;
+}
+header{
+  margin: 0;
+  padding: 0;
+  background-color: #673Ab7;
+  color: #f5f5f5;
+}
+
+body{
+    background-color: #EEEEEE;
+}
+img{padding-top: 0;
+  margin: 0;
+  width: 3,5rem;
+  height:3.5rem;
+}
+.header_flex{
+  position: relative;
+  display: flex;
+    flex-direction: row;
+
+}
+.chatter_header{
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  
+  text-align: right;
+  font-size: 35px;
+  font-weight: bolder;
+}
+.fle{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+fieldset{
+background:url("img2.jpg") center ;
+background-size: cover; 
+background-repeat:no-repeat;
+opacity: 0.2px;
+padding-bottom: 1rem;
+  width: 50rem;
+  height: 580px;
+  color: #f5f5f5;
+font-size:20px;
+padding-bottom: 40px;
+border-radius:2em;
+border-bottom-left-radius:2em;
+box-shadow:2px 2px 0.4em black;
+text-align: left;
+}
+.sign_header{
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align:center;
+}
+li{
+  margin: 1rem;
+  list-style: none;
+}
+input{
+    height: 1.5rem;
+    width: 15rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #272727;
+    border-radius: 9px;
+   outline: none;
+   background:  #f5f5f5;
+   color: black;
+   padding-left:.5rem;
+  margin-left: 0.5rem;
+}
+  input:hover{
+    background: #512DA8;
+    color: white;
+        border-color: #f5f5f5;
+      transition: all 0.7s ease-in-out;
+  }
+  input::placeholder{
+    color: black;
+  }
+select{
+  outline: none;
+   height: 2rem;
+    width: 5rem;
+      border-width: 2px;
+    border-style: solid;
+    border-color: #272727;
+        border-radius: 9px;
+      background:  #f5f5f5;
+   color: black;
+   margin-left: 1rem;
+}
+  select:hover{
+    background: #512DA8;
+    color: white;
+        border-color: #f5f5f5;
+      transition: all 0.7s ease-in-out;
+  }
+.butto{
+  display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+   height: 40px;
+    width: 10rem;
+    border-width: 2px;
+    font-size: 1.2rem;
+    border-style: solid;
+    border-color: #272727;
+    border-radius: 10px;
+   outline: none;
+   background-color: unset;
+}
+.butto:hover{
+    color: white;
+    background-color: #512DA8;
+        border-color: #f5f5f5;
+        outline: none;
+      transition: all 0.5s ease-in-out;
+}
+a{ color:#f5f5f5;
+margin-left: .5rem; 
+text-decoration: underline;
+text-decoration-color: #272727;
+}
+marquee{
+  margin-top: 1rem;
+}
+}

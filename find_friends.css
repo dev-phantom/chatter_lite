@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: auto;
+	height: 6rem;
+	margin: 0;
+	padding: 0;
+	background-color: #673Ab7;
+	color: #f5f5f5;
+	justify-content: center;
+	align-items: center;
+	border-bottom-left-radius:1rem;
+	border-bottom-right-radius:1rem;
+}
+
+body{
+		background-color: #EEEEEE;
+}
+.logo{
+	width: 3.5rem;
+	height:3.5rem;
+}
+.header_flex{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+		flex-direction: row;
+}
+.chatter_header{
+	position: absolute;
+	top: 5px;
+	right: 8px;
+	text-align: right;
+	font-size: 25px;
+	font-weight: bolder;
+}
+i{outline: none;
+	color: #f5f5f5;
+}
+i:hover{
+	outline: none;
+     color: #f5f5f5;
+        outline: none;
+      transition: all 0.5s ease-in-out;
+}
+.friends_find_friend{
+	font-size: 35px;
+	font: ariel-bold;
+	font-weight: bolder;
+	word-spacing: 1px;
+}
+.friends_header{
+margin: .5rem;
+}
+#friends_find_friend{
+	font-size: 20px;
+}
+#search_btn{
+	float: right;
+	color: #673Ab7;
+}
+.info_and_image_flex{
+	display: flex;
+	margin-top: 2rem;
+	border-bottom-width: .1rem;
+	border-bottom-style: solid;
+	border-bottom-color: #272727;
+	border-bottom-right-radius: 3rem;	
+	border-bottom-left-radius: 3rem;	
+}
+.profile_pic{
+	margin-left: 1.5rem;
+	width: 5rem;
+	height:5rem;
+	border-radius: 3rem;
+}
+.info_and_image_block{
+display: block;
+margin: .2rem;
+font-weight: bolder;
+}
+.name{
+	font-size: 25px;
+}
+#icons{
+	color: #673Ab7;
+}
+#icons:hover{
+	color: #272727;
+}
+.add_friend_btn{
+   height: 40px;
+    width: 8rem;
+    border-width: 2px;
+    font-size: 1.2rem;
+    border-style: solid;
+    border-color: #673Ab7;
+    border-radius: 10px;
+   outline: none;
+   color: white;
+   margin-left: 1rem;
+   background-color: #272727;
+}
+.add_friend_btn:hover{
+   background-color: #673Ab7;
+   	color:#272727;
+   	border-color: #272727;
+
+}
+.info_and_image_btn{
+		display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+  .butto{
+	display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: .5rem;
+margin-bottom: .5rem;
+   height: 40px;
+    width: 10rem;
+    border-width: 2px;
+    font-size: 1.2rem;
+    border-style: solid;
+    border-color: #272727;
+    border-radius: 10px;
+   outline: none;
+   background-color: unset;
+}
+.butto:hover{
+    color: white;
+    background-color: #512DA8;
+        border-color: #272727;
+        outline: none;
+      transition: all 0.5s ease-in-out;
+}
